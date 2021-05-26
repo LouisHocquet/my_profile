@@ -70,6 +70,14 @@ video {
   margin: 20px;
 }
 
+@media (max-width: 500px) {
+  /* For a screen < 500px, this CSS will be read */
+  .card {
+    margin: 15px 5px;
+    padding: 5px 30px;
+  }
+}
+
 .btn-orange {
   background-color:  white;
   border: solid 1px #f79a0b;
